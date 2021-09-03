@@ -1,0 +1,9 @@
+x=int(input ("Enter value of rows: "))
+val=0
+for i in range(0,x):
+   for j in range(0,x-i-1):
+       print(" ",end=" ")
+   for j in range(0,i*2+1):
+       val=i+1;
+       print(val,end=" ")
+   print()
